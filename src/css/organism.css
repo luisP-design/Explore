@@ -1,0 +1,11 @@
+/* ===================== *\
+        HEADER-TOP & NAV
+\* ===================== */
+.header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-top nav ol {
+    display: flex;
+}

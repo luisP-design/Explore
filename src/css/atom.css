@@ -1,0 +1,47 @@
+/* ===================== *\
+        VARIABLES
+\* ===================== */
+:root {
+    /*  COLORS  */
+    --primary: #00C5D1;
+    --secondary: #C8D4E1;
+    --grey-light: #B1B1B1;
+    --grey: #606060;
+    --grey-dark: #303030;
+    --bg-grey: #e1e1e1;
+    --light: #f1f1f1;
+    --white: #f8fafa;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+/* ===================== *\
+        TEXT
+\* ===================== */
+
+.text {
+    font-size: 1.6rem;
+}
+
+.h2 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    letter-spacing: .2rem;
+}
+
+/*  COLORS  */
+.primary { color: var(--primary) };
+.secondary { color: var(--secondary) };
+.dark { color: var(--grey-dark) };
+.grey { color: var(--grey) };
+.white { color: var(--white) };
+
+
+@media screen and (max-width: 1080px) {
+    .text {
+        font-size: 1.4rem;
+    }
+}

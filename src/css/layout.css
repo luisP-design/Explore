@@ -1,0 +1,19 @@
+.body {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* ===================== *\
+        GRID
+\* ===================== */
+
+.section {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.full {
+    grid-column-start: 1;
+    grid-column-end: 13;
+}
+
