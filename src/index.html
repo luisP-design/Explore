@@ -10,7 +10,7 @@
 </head>
 <body class="body">
     <header class="header section" id="header">
-        <div class="header-top full">
+        <div class="header-top col-center">
             <!-- hero header -->
             <picture>
                 <img src="./images/Explore-logo.svg" alt="explore-logo">
@@ -18,38 +18,39 @@
             <nav>
                 <ol>
                     <a href="#">
-                        <li class="text white">home</li>
+                        <li class="h5 white">home</li>
                     </a>
                     <a href="#">
-                        <li class="text white">explore</li>
+                        <li class="h5 white">explore</li>
                     </a>
                     <a href="#">
-                        <li class="text white">my plan</li>
+                        <li class="h5 white">my plan</li>
                     </a>
                     <a href="#">
-                        <li class="text white">experiences</li>
+                        <li class="h5 white">experiences</li>
                     </a>
                     <a href="#">
-                        <li class="text white">login</li>
+                        <li class="h5 white">login</li>
                     </a>
                 </ol>
             </nav>
         </div>
-        <div class="hero">
+        <div class="hero col-center">
 
             <!-- hero main -->
             <div class="hero-search">
-                <form action="search">
-                    <label for="hero-search" class="text">¿Qué lugar vas a descubrir?</label>
-                    <input type="search" name="search" id="hero-search">
+                <form action="search" class="input-search">
+                    <label for="hero-search" class="h4 white">¿Qué lugar vas a descubrir?</label>
+                    <input type="search" name="search" id="hero-search" class="text grey input">
+                    <a href="#" id="hero-search-icon-btn"><img src="./images/icons/search-icon.svg" alt="search"></a>
                 </form>
             </div>
 
-            <!-- hero footer -->
-            <div class="hero-foot">
-                <p id="hero-place-title" class="text">place title</p>
-                <img src="" alt="icon-place-title">
-            </div>
+        </div>
+        <!-- hero footer -->
+        <div class="hero-foot col-center location">
+            <p id="hero-place-title" class="h5 white">place title</p>
+            <img src="./images/icons/location-icon_white.svg" alt="icon-place-title">
         </div>
     </header>
 

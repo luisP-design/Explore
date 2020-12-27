@@ -4,8 +4,19 @@
 .header-top {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 8rem;
 }
 
 .header-top nav ol {
     display: flex;
+    gap: 5rem;
+}
+
+.header-top nav a {
+    text-decoration: none;
+}
+
+.header-top nav li {
+    list-style: none;
 }

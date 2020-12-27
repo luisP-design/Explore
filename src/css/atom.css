@@ -11,6 +11,13 @@
     --bg-grey: #e1e1e1;
     --light: #f1f1f1;
     --white: #f8fafa;
+
+    /* SHADOWS */
+    --in-shadow-small: inset 1px 1px 6px #00000060;
+    --shadow-small: 4px 4px 8px #00000015;
+
+    /* RADIUS */
+    --radius-10: 1rem;
 }
 
 html {
@@ -23,21 +30,36 @@ html {
 \* ===================== */
 
 .text {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 
 .h2 {
     font-size: 2.2rem;
     font-weight: 600;
     letter-spacing: .2rem;
+    text-transform: uppercase;
+}
+
+.h4 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+}
+
+.h5 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
 }
 
 /*  COLORS  */
-.primary { color: var(--primary) };
-.secondary { color: var(--secondary) };
-.dark { color: var(--grey-dark) };
-.grey { color: var(--grey) };
-.white { color: var(--white) };
+.primary { color: var(--primary) }
+.secondary { color: var(--secondary) }
+.dark { color: var(--grey-dark) }
+.grey { color: var(--grey) }
+.white { color: var(--white) }
 
 
 @media screen and (max-width: 1080px) {

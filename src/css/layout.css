@@ -17,3 +17,7 @@
     grid-column-end: 13;
 }
 
+.col-center {
+    grid-column: 2 / 12;
+}
+

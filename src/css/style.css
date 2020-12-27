@@ -1,5 +1,6 @@
 @import "layout.css";
 @import "atom.css";
+@import "molecules.css";
 @import "organism.css";
 
 
@@ -16,13 +17,26 @@
 #header {
     background-color: var(--primary);
     height: 70vh;
+    align-content: space-between;
 }
-
 
 /* ===================== *\
         HERO
 \* ===================== */
+.hero-search .input-search {
+        width: 40%;
+}
 
+.hero-foot {
+        justify-self: end;
+        margin-bottom: 4rem;
+}
+
+@media screen and (max-width: 768px) {
+        .hero-search .input-search {
+                width: 100%;
+        }
+}
 
 
 /* ===================== *\

@@ -1,0 +1,60 @@
+/* ===================== *\
+        INPUT
+\* ===================== */
+.input {
+    margin: 1rem 0;
+    height: 3.6rem;
+    background-color: var(--light);
+    border-radius: var(--radius-10);
+    border: none;
+    box-shadow: var(--in-shadow-small);
+    outline: none;
+    padding: .2rem 1rem;
+}
+
+.input:focus {
+    box-shadow: var(--shadow-small);
+}
+
+
+/* ===================== *\
+        INPUT - SEARCH
+\* ===================== */
+
+.input-search {
+    display: grid;
+    grid-template-columns: 1fr 3rem;
+    /* grid-template-areas: 
+        "label label"
+        "input search-icon" */
+}
+
+.input-search label {
+    grid-area: label;
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+}
+.input-search input {
+    grid-area: input;
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+}
+.input-search a {
+    grid-area: search-icon;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    align-self: center;
+}
+.input-search a img {
+    width: 2rem;
+}
+
+/* ===================== *\
+        LOCATIONS
+\* ===================== */
+.location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
