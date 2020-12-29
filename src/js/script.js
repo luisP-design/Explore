@@ -1,6 +1,6 @@
 const hero = document.getElementById('header');
 const heroFTitle = document.getElementById('hero-place-title');
-let images = ['Dubrovnik-Ragusa', 'Santorini-Greece', 'Hawaii-Estados-Unidos', 'California-Estados-Unidos'];
+let images = ['Dubrovnik-Ragusa', 'Santorini-Greece', 'California-Estados-Unidos'];
 
 function stringDivi(string) {
     let name = string.split('-');

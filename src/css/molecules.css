@@ -58,3 +58,19 @@
     align-items: center;
     gap: 1rem;
 }
+
+/* ===================== *\
+        BUTTONS
+\* ===================== */
+/* LINK */
+.link {
+    text-decoration: none;
+}
+
+.link p {
+    transition: 400;
+}
+
+.link p:hover span {
+    margin-left: .3rem;
+}

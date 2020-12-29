@@ -21,3 +21,18 @@
     grid-column: 2 / 12;
 }
 
+
+/* LOCATION */
+.center {
+    justify-content: center;
+    text-align: center;
+}
+
+/* BY COLUMS */
+/* (Always has to be inside the section class) */
+.col-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 5rem;
+}
+

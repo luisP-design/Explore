@@ -40,14 +40,14 @@ html {
     text-transform: uppercase;
 }
 
-.h4 {
+.h3 {
     font-size: 1.4rem;
     font-weight: 500;
     letter-spacing: .2rem;
     text-transform: uppercase;
 }
 
-.h5 {
+.h4 {
     font-size: 1.3rem;
     font-weight: 500;
     letter-spacing: .2rem;
@@ -61,6 +61,40 @@ html {
 .grey { color: var(--grey) }
 .white { color: var(--white) }
 
+/* BACKGROUNDS */
+.bg-primary { background-color: var(--primary) }
+.bg-secondary { background-color: var(--secondary) }
+.bg-dark { background-color: var(--grey-dark) }
+.bg-grey { background-color: var(--grey) }
+.bg-white { background-color: var(--white) }
+
+
+/* ===================== *\
+        SPACES
+\* ===================== */
+/* PADDING TOP */
+.pt-20 {
+    padding-top: 2rem;
+}
+.pt-70 {
+    padding-top: 7rem;
+}
+
+/* PADDING BOTTOM */
+.pb-20 {
+    padding-bottom: 2rem;
+}
+.pb-70 {
+    padding-bottom: 7rem;
+}
+
+/* PADDING */
+.mt-10 {
+    margin-top: 1rem;
+}
+.mb-10 {
+    margin-bottom: 1rem;
+}
 
 @media screen and (max-width: 1080px) {
     .text {
