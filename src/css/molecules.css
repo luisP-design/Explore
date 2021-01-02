@@ -74,3 +74,86 @@
 .link p:hover span {
     margin-left: .3rem;
 }
+
+/* BUTTON */
+.btn {
+    text-decoration: none;
+}
+.btn p{
+    margin: .5rem 0;
+    height: 3.6rem;
+    background-color: var(--primary);
+    border-radius: var(--radius-10);
+    border: none;
+    outline: none;
+    padding: .2rem 1rem;
+    width: 30rem;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font: var(--h4);
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    color: var(--grey-dark);
+}
+
+.btn:hover p {
+    /* width: calc(20% + 5px); */
+}
+
+.btn-secondary p{
+    background-color: var(--secondary);
+}
+.btn-grey-light p{
+    background-color: var(--grey-light);
+}
+.btn-grey p{
+    background-color: var(--grey);
+}
+.btn-grey-dark p{
+    background-color: var(--grey-dark);
+}
+.btn-light p{
+    background-color: var(--light);
+}
+.btn-white p{
+    background-color: var(--white);
+}
+
+/* BUTTON LINE */
+
+.btn-line p{
+    background: transparent;
+    border: .15rem solid var(--primary);
+    color: var(--primary);
+}
+.btn-line-secondary p{
+    background: transparent;
+    border: .15rem solid var(--secondary);
+    color: var(--secondary);
+}
+.btn-line-grey-light p{
+    background: transparent;
+    border: .15rem solid var(--grey-light);
+    color: var(--grey-light);
+}
+.btn-line-grey p{
+    background: transparent;
+    border: .15rem solid var(--grey);
+    color: var(--grey);
+}
+.btn-line-grey-dark p{
+    background: transparent;
+    border: .15rem solid var(--grey-dark);
+    color: var(--grey-dark);
+}
+.btn-line-light p{
+    background: transparent;
+    border: .15rem solid var(--light);
+    color: var(--light);
+}
+.btn-line-white p{
+    background: transparent;
+    border: .15rem solid var(--white);
+    color: var(--white);
+}

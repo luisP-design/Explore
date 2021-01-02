@@ -28,12 +28,46 @@
     text-align: center;
 }
 
+.right {
+    justify-content: flex-end;
+}
+
+.slf-rigth {
+    justify-self: flex-end;
+}
+
 /* BY COLUMS */
 /* (Always has to be inside the section class) */
+.col-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5rem;
+}
 .col-4 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 5rem;
-    padding: 0 5rem;
+}
+
+/* GRIDS */
+.grid-blog-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template: "blockOne blockTwo"
+                   "blockOne blockThree"
+    ;
+    gap: 5rem;
+}
+
+.grid-blog-3 .block-1 {
+    grid-area: blockOne;
+    height: auto;
+}
+.grid-blog-3 .block-2 {
+    grid-area: blockTwo;
+}
+.grid-blog-3 .block-3 {
+    grid-area: blockThree;
 }
 

@@ -38,7 +38,12 @@
         }
 }
 
-
 /* ===================== *\
         MAIN
 \* ===================== */
+
+/* MY PLAN */
+#my-plan {
+        background-image: url("../images/Valadalen_Suecia.jpg");
+        height: 60rem;
+}

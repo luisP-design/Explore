@@ -18,6 +18,13 @@
 
     /* RADIUS */
     --radius-10: 1rem;
+
+    /* TEXT */
+    --text: 1.4rem 'Montserrat', Helvetica, sans-serif;
+    --h1: 600 3rem 'Montserrat', Helvetica, sans-serif;
+    --h2: 600 2.2rem 'Montserrat', Helvetica, sans-serif;
+    --h3: 500 1.4rem 'Montserrat', Helvetica, sans-serif;
+    --h4: 500 1.3rem 'Montserrat', Helvetica, sans-serif;
 }
 
 html {
@@ -66,6 +73,7 @@ html {
 .bg-secondary { background-color: var(--secondary) }
 .bg-dark { background-color: var(--grey-dark) }
 .bg-grey { background-color: var(--grey) }
+.bg-grey-light { background-color: var(--bg-grey) }
 .bg-white { background-color: var(--white) }
 
 
@@ -88,12 +96,20 @@ html {
     padding-bottom: 7rem;
 }
 
-/* PADDING */
+/* MARGIN TOP*/
 .mt-10 {
     margin-top: 1rem;
 }
+.mt-20 {
+    margin-top: 2rem;
+}
+
+/* MARGIN BOTTOM*/
 .mb-10 {
     margin-bottom: 1rem;
+}
+.mb-20 {
+    margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 1080px) {
