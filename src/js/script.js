@@ -44,4 +44,3 @@ addCard("card-1",0, "Noruega_001")
 addCard("card-2",1, "Argentina_001")
 addCard("card-3",2, "EstadosUnidos_001")
 addCard("card-4",3, "Mexico_001")
-
